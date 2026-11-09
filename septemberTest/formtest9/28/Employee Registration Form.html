@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Registration Form</title>
+</head>
+
+<body>
+
+    <form>
+
+        <fieldset>
+            <legend>Employee Information</legend>
+
+            <label for="employee_name">Employee Name</label>
+            <input type="text" id="employee_name" name="employee_name" placeholder="Enter your name" required>
+            <br><br>
+
+            <label for="date_of_birth">Date Of Birth</label>
+            <input type="date" id="date_of_birth" name="date_of_birth" placeholder="Enter your date of birth" required>
+            <br><br>
+
+            <label>Gender :</label>
+
+            <input type="radio" name="gender" value="male">
+            <label>Male</label>
+
+            <input type="radio" name="gender" value="female">
+            <label>Female</label>
+
+            <input type="radio" name="gender" value="other">
+            <label>Other</label>
+            <br><br>
+
+            <label for="employee_id">Employee ID</label>
+            <input type="text" id="employee_id" name="employee_id" placeholder="Enter employee id" required>
+        </fieldset>
+
+
+        <fieldset>
+            <legend>Contact Information</legend>
+            <label for="mobile_number">Mobile Number</label>
+            <input type="number" id="mobile_number" name="mobile_number" placeholder="Enter Mobile Number" required>
+            <br><br>
+
+            <label for="email_adderess">Email Address</label>
+            <input type="email" id="email_address" name="email_address" placeholder="Enter email address" autocomplete="email" required>
+            <br><br>
+
+            <label for="address">Full Address</label>
+            <textarea id="address" name="address" rows="4" cols="30"></textarea>
+            <br><br>
+
+            <label>City</label>
+
+            <select>
+
+                <option>--Select Option--</option>
+                <option>Hisar</option>
+                <option>delhi</option>
+                <option>Rohtak</option>
+                <option>Gurugram</option>
+            </select>
+            <br><br>
+
+        </fieldset>
+
+
+        <fieldset>
+            <legend>Jobs Informarion</legend>
+
+            <label for="departament">Department</label>
+            <input type="text" id="departament" name="departament" placeholder="Enter your department" required>
+            <br><br>
+
+            <label for="designation">Designation</label>
+            <input type="text" id="designation" name="designation" placeholder="Enter your designation" required>
+            <br><br>
+
+            <label for="joinigs_date">Joining Date</label>
+            <input type="number" id="joinigs_date" name="joinigs_date" placeholder="Enter your joinigs date" required>
+            <br><br>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Emergency Contact</legend>
+
+            <label for="Contact Person Name">Contact Person Name</label>
+            <input type="text" id="Contact Person Name" name="Contact Person Name" placeholder="Enter your Contact Person Name" required>
+            <br><br>
+
+            <label for="relationship">Relationship</label>
+            <input type="text" id="Relationship" name="Relationship" placeholder="Enter your Relationship" required>
+            <br><br>
+
+            <label for="mobile_number">Mobile Number</label>
+            <input type="number" id="mobile_number" name="mobile_number" placeholder="Enter Mobile Number" required>
+            <br><br>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Additional Information</legend>
+
+
+            <label>skills :</label>
+
+            <input type="checkbox" name="skill" value="Office Employee">
+            <label>Office Employee</label>
+
+                <input type="checkbox" name="skill" value="Computer Operator">
+                <label>Computer Operator</label>
+
+                <input type="checkbox" name="skill" value="HR Employee">
+                <label>HR Employee</label>
+
+                <input type="checkbox" name="skill" value="Civil Compnay Employee">
+                <label>Civil Compnay Employee</label>
+
+                <input type="checkbox" name="skill" value="Data Entry Opertor">
+                <label>Data Entry Opertor</label>
+                <br><br>
+
+                <label for="Previous Experience">Previous Experience</label>
+            <input type="text" id="Previous Experience" name="Previous Experience" placeholder="Enter Previous Experience" required>
+            <br><br>
+
+            
+            <label for="about_employee">About Employee</label>
+            <textarea id="about_employee" name="about_employee" rows="4" cols="30"></textarea>
+            <br><br>
+
+        </fieldset>
+
+        <fieldset>
+                
+        <br>
+
+        <button type="submit">Submit Registration</button>
+        <button type="reset">Reset Form</button>
+
+
+            </fieldset>
+    </form>
+
+</body>
+
+</html>
