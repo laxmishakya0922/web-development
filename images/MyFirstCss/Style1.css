@@ -1,0 +1,131 @@
+
+        * {
+            margin: 20px;
+            padding: 20px;
+           
+        }
+        body {
+            background-color: white;
+            color: black;
+            
+        }
+        
+        header {
+            background-color: darkblue;
+            color: white;
+            text-align: center;
+            padding: 30px 20px;
+        }
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 5px;
+        }
+        .tagline {
+            
+            color: burlywood;
+        }
+
+        .welcome-banner {
+            background-color: cadetblue;
+            color: white;
+            text-align: center;
+            padding: 40px 20px;
+        }
+        .welcome-banner h2 {
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+        .admission-btn {
+        
+            margin-top: 20px;
+            padding: 12px 28px;
+            background-color: orange;
+            color: white;
+            font-size: 1opx;
+            font-weight: bold;
+            
+           
+        }
+        .admission-btn:hover {
+            background-color: orange;
+        }
+
+        
+        .container {
+            max-width: 1000px;
+            margin: 30px auto;
+            padding: 0 20px;
+        }
+        .section-box {
+            background: white;
+            padding: 25px;
+            margin-bottom: 25px;
+           
+            
+        }
+        .section-title {
+            color: steelblue;
+            border-bottom: 2px solid royalblue;
+            padding-bottom: 8px;
+            margin-bottom: 15px;
+            font-size: 1.5em;
+        }
+
+        
+        .facilities-grid {
+            display: grid;
+            gap: 15px;
+        }
+        .facility-card {
+            background: white;
+            padding: 15px;
+            border-radius: 6px;
+            text-align: center;
+            border-left: 4px solid royalblue;
+        }
+        .facility-card h3 {
+            color: darkblue;
+            margin-bottom: 5px;
+            font-size: 1.1em;
+        }
+
+        
+        .notice-ticker {
+            background: white;
+            color: orange;
+            padding: 8px;
+            font-weight: bold;
+            margin-bottom: 15px;
+            
+        }
+        .notice-list {
+            list-style: none;
+        }
+        .notice-list li {
+            padding: 10px 0;
+            border-bottom: 1px solid white;
+        }
+        .notice-list li:last-child {
+            border-bottom: none;
+        }
+        .badge {
+            background: palevioletred;
+            color: white;
+            font-size: 0.75em;
+            padding: 2px 6px;
+            margin-right: 8px;
+        }
+
+        
+        footer {
+            background-color: black;
+            color: gray;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+            font-size: 0.95em;
+        }
+        footer p {
+            margin: 5px 0;
+        }
+    
